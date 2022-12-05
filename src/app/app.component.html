@@ -1,4 +1,7 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<h2>One-way Binding Example</h2>
+
+<!--In one way binding , the flow of code is from typescript file to Html file-->
+
+<input [value]="text_value" type="text">
+
+<p>Hello,{{text_value}} !</p>
